@@ -9,7 +9,7 @@ require('dotenv').config()
 // middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173','mern-vercel-utlw.vercel.app' ],
+    origin: ['http://localhost:5173','https://mern-vercel-ebon.vercel.app/'  ],
     credentials: true
 }))
 
