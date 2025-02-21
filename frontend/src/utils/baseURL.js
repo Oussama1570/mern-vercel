@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-    return "mern-vercel-rho.vercel.app"
+    return "mern-vercel-azure.vercel.app"
 }
 
 export default getBaseUrl;
