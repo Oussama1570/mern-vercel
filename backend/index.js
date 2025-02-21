@@ -3,13 +3,13 @@ const app = express();
 const cors = require("cors");
 
 const mongoose = require("mongoose");
-const port = process.env.PORT || 'mern-vercel-cdhv.vercel.app';
+const port = process.env.PORT || 5000;
 require('dotenv').config()
 
 // middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173', 'mern-vercel-cdhv.vercel.app'],
+    origin: ['http://localhost:5173', ],
     credentials: true
 }))
 
